@@ -35,7 +35,7 @@ while j <= int(i):
 
 j = 0
 while j < len(y):
-    print(y[j],y[j+1],y[j+2],y[j+3])
+    print(y[j], format(y[j+1],'.2f'), format(y[j+2],'.2f'), format(y[j+3],'.2f'))
     j = j + 4
 
 print(sumakosztupracodawcy)
